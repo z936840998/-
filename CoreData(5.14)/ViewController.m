@@ -44,6 +44,7 @@
         NSLog(@"完整填写信息");
         NSLog(@"```````");
         NSLog(@"又来一个log");
+        NSLog(@"来份红烧鸡");
         return;
     }else{
         //创建模型 进行存储
