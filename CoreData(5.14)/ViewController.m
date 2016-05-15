@@ -42,6 +42,7 @@
 - (IBAction)regist:(id)sender {
     if (self.username.text.length == 0 || self.password.text.length == 0) {
         NSLog(@"完整填写信息");
+        NSLog(@"```````");
         return;
     }else{
         //创建模型 进行存储
