@@ -43,6 +43,7 @@
     if (self.username.text.length == 0 || self.password.text.length == 0) {
         NSLog(@"完整填写信息");
         NSLog(@"```````");
+        NSLog(@"又来一个log");
         return;
     }else{
         //创建模型 进行存储
